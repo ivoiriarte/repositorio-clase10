@@ -5,6 +5,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Monos sabios</title>
 	<link rel="stylesheet" href="./css/grids.css">
+	<link rel="stylesheet" href="./css/animate.css">
+	<script src="./js/wow.min.js"></script>
+    <script>
+    	new WOW().init();
+    </script>
+
+
 </head>
 <body class="grid gridareas" >
 	<!--Inicio del header-->
@@ -13,7 +20,7 @@
 					<a href="index.html">
 						<img class="header__logo--xs" src="./imagenes/logos/logo_monos_sabios.png" alt="logo de monos sabios">
 					</a>
-				<h1>Monos sabios</h1>
+				<h1 class="wow slideInLeft">Monos sabios</h1>
 		</section>
 		<!--Inicio del nav-->
 		<nav class="header__nav--100">
@@ -43,11 +50,11 @@
 	<main id="main">
 		
 			<!--Inicio del carrusel de fotos-->
-		<section id="carrusel">
+		<section id="carrusel" class="wow rotateIn">
 			<article class="carrusel__box--tamañoylugar main__carrusel--nowrap" id="carrusel2">
-				<img src="./imagenes/primeraimagendelcarrusel.png" alt="Primera imagen del carrusel" class="main__carrusel__imagenes--m">
-				<img src="./imagenes/segundaimagendelcarrusel.png#" alt="Segunda imagen del carrusel" class="main__carrusel__imagenes--m">
-				<img src="./imagenes/terceraimagendelcarrusel.png#" alt="Tercera imagen del carrusel" class="main__carrusel__imagenes--m">
+				<img src="./imagenes/primeraimagendelcarrusel.png" alt="Primera imagen del carrusel" class="main__carrusel__imagenes--m aparecer">
+				<img src="./imagenes/segundaimagendelcarrusel.png#" alt="Segunda imagen del carrusel" class="main__carrusel__imagenes--m aparecer">
+				<img src="./imagenes/terceraimagendelcarrusel.png#" alt="Tercera imagen del carrusel" class="main__carrusel__imagenes--m aparecer">
 			</article>
 			
 				
@@ -58,7 +65,7 @@
 			<!--fin del carrusel de fotos-->			
 
 				<!--Inicio seccion de muestra de fotos-->
-		<section id="textodeparrafos" class="main__productos">
+		<section id="textodeparrafos" class="main__productos wow slideInLeft">
 			<article class="main__productos--articlescenter">
 				<img src="./imagenes/productos/apa.jpg" alt="Imagen cerveza apa" class="main__productos--tamaño">
 				<p class="main__productos--tamaño">
@@ -72,7 +79,7 @@
 				</p>
 			</article>
 			<article class="main__productos--articlescenter">
-				<img src="./imagenes/productos/stout.jpg" alt="Imagen cerveza stout" class="main__productos--tamaño">
+				<img src="./imagenes/productos/stout.jpg" alt="Imagen cerveza stout" class="main__productos--tamaño animate">
 				<p class="main__productos--tamaño">
 					Nuestra <b>Stout</b>, es una cerveza color negro azabache con sabor tostado y notas a café y chocolate amargo. Espuma marrón, cuerpo medio a pleno y un leve dulzor a caramelo.⁣
 				</p>
@@ -84,7 +91,7 @@
 	<!--Fin del main-->
 
 	<!--Inicio del Footer-->
-	<footer class="colordefondo_amarillo" id="footer">
+	<footer class="colordefondo_amarillo wow fadeInUp" id="footer" >
 		<div>
 			<a href="index.html">
 				<img src="./imagenes/logos/logo_monos_sabios.png" alt="logo de monos sabios">

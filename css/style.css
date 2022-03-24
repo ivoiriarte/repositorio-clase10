@@ -442,3 +442,20 @@ p{
 	background-color:#DFBA1FFF ;
 	font-family: thaoma, sans-serif;
 }
+
+nav ul li{
+	background: linear-gradient(to top, #D0C624 , black );
+}
+
+
+
+
+nav ul li:hover{
+	transform: translateY(10px);
+	cursor: pointer;
+}
+
+footer ul li:hover{
+	transform: scale(1.25);
+	transition: transform 1.5s;
+}

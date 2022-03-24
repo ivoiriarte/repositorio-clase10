@@ -70,7 +70,6 @@ nav ul li a{
 	color: white;
 	font-weight: 300;
 	font-size: 2rem;
-	background-color: black;
 	padding: 3px;
 }
 
@@ -96,8 +95,8 @@ header{
 	background-repeat: no-repeat;
 	background-position: bottom right;
 	background-size: cover;
-	position: sticky;
-	top: 0;
+	/*position: sticky;
+	top: 0;*/
 }
 
 
@@ -553,4 +552,43 @@ footer{
 	font-size: 5rem;
 	}
 
+}
+
+
+
+
+
+/*------------------------------Animaciones-------------------------------------------*/
+
+
+nav ul li{
+	background: linear-gradient(to top, #D0C624 , black );
+}
+
+
+
+
+nav ul li:hover{
+	transform: translateY(10px);
+	cursor: pointer;
+}
+
+footer ul li:hover{
+	transform: scale(1.25);
+	transition: transform 1.5s;
+}
+
+@keyframes productos{
+	from{opacity: 0.5}
+	to{opacity: 1}
+}
+
+.aparecer2:hover{
+	animation-name: productos;
+	animation-duration: 0.5s;
+	animation-fill-mode: forwards;
+}
+
+.imgproductos{
+ opacity: 0.5;
 }
